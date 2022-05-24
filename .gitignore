@@ -1,0 +1,33 @@
+# Pycharm temporal Files
+.idea/
+.idea
+.idea/modules.xml
+.idea/riderModule.iml
+.idea/workspace.xml
+
+# Virtual environment
+venv
+macbook_venv
+
+# iCLoud files
+*.DS_Store
+
+*.png
+*.json
+bin/
+include/
+lib/
+src/task/bin/
+src/task/include/
+src/task/lib/
+
+
+# Byte-compiled / optimized / DLL files
+Deffuant/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# images
+img/
+data/
