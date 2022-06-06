@@ -1,6 +1,5 @@
 from deffuant_model import DeffuantModel
-import distribution_tools as tools
-import numpy as np
+import tools as tools
 
 # Set up model parameters
 N_nodes: int = 100
