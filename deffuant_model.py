@@ -12,8 +12,6 @@ class DeffuantModel:
         self.confidence = confidence  # restricted to interval (0, 0.5]
         self.cautiousness = cautiousness  # convergence parameter, mu,  restricted to interval (0, 0.5]
         self.PRECISION = 0.01  # difference between opinions that are considered identical
-        # convergence parameters
-        self.MAXIMUM_STEPS = int(1e08)
 
     def interaction(self):
         # choose two nodes for interaction at random
